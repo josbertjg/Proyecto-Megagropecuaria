@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>MegaAgropecuaria</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid d-flex justify-content-sm-center">
+              <a class="navbar-brand" href="#">
+                  <img src="./img/logo.jpg" alt="logo">
+                  <b id="title">Megagropecuaria</b>
+              </a>
+              <form action="" id="searchform">
+                  <input id="s" class="form-control me-2" type="search" placeholder="Buscar:" aria-label="Search">
+              </form>
+              <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse flex-column align-items-center justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 d-flex align-items-center justify-content-lg-start mt-3 mt-sm-0 justify-content-center">
+                    <div class="d-flex justify-content-center">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle me-3" href="#" id="categorias" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Categorias
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="categorias">
+                                <li><a class="dropdown-item" href="./html/detalle.html">Medicamentos</a></li>
+                                <li><a class="dropdown-item" href="./html/search.html">Pecuaria</a></li>
+                                <li><a class="dropdown-item" href="./html/detalle.html">Agricola</a></li>
+                                <li><a class="dropdown-item" href="./html/search.html">Servicio</a></li>
+                                <li><a class="dropdown-item" href="./html/search.html">Agrotiendas</a></li>
+                                <li><a class="dropdown-item" href="./html/categorias.html">Vademécum</a></li>
+                                <li><a class="dropdown-item" href="./html/blog.html">Mascotas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item me-sm-3 me-0">
+                            <a id="btnSesion" class="btn btn-outline-light" href="./html/search.html">Iniciar Sesion</a>
+                        </li>
+                    </div>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main id="index-content">
+        <section class="">
+            <div id="carousel1" class="carousel slide carousel-dark" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carousel1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/carousel1.jpg" class="" alt="img1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/carousel2.jpg" class="" alt="img2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/carousel3.jpg" class="" alt="img3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/carousel4.jpg" class="" alt="img4">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section class="my-3 d-flex justify-content-center flex-column align-items-sm-start align-items-center">
+        <span class="ms-sm-3 ms-0 fs-4 fw-bold mb-3">Productos Destacados</span>
+        <div id="carousel2" class="carousel slide carousel-dark" data-bs-ride="true">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center">
+                        <img src="./img/product1.jpg" class="me-4 d-xl-inline d-none" alt="img1">
+                        <img src="./img/product2.jpg" class="me-4 d-lg-inline d-none" alt="img2">
+                        <img src="./img/product3.jpg" class="me-4 d-sm-inline d-none" alt="img3">
+                        <img src="./img/product4.jpg" class="" alt="img4">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                    <img src="./img/product5.jpg" class="me-4 d-xl-inline d-none" alt="img2">
+                    <img src="./img/product6.jpg" class="me-4 d-lg-inline d-none" alt="img1">
+                    <img src="./img/product7.jpg" class="me-4 d-sm-inline d-none" alt="img4">
+                    <img src="./img/product8.jpg" class="" alt="img3">
+                </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel2  " data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+        </section>
+        <section class="my-3">
+            <span class="ms-sm-5 fs-4 fw-bold">Noticias Recientes</span>
+            <div>
+                <a href="./html/search.html">
+                    <article>
+                        <img src="./img/info1.jpg" alt="">
+                        <div>
+                            <span>Noticia</span>
+                        </div>
+                    </article>
+                </a>
+                <a href="./html/detalle.html">
+                    <article>
+                        <img src="./img/info2.jpg" alt="">
+                        <div>
+                            <span>Noticia</span>
+                        </div>
+                    </article>
+                </a>
+                <a href="./html/search.html">
+                    <article>
+                        <img src="./img/info3.jpg" alt="">
+                        <div>
+                            <span>Noticia</span>
+                        </div>
+                    </article>
+                </a>
+                <a href="./html/detalle.html">
+                    <article>
+                        <img src="./img/info4.jpg" alt="">
+                        <div>
+                            <span>Noticia</span>
+                        </div>
+                    </article>
+                </a>
+            </div>
+        </section>
+        <section class="my-3 d-flex flex-column justify-content-center w-100">
+            <span class="ms-sm-3 ms-0 fs-4 fw-bold mb-3">Marcas</span>
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <section class="">
+                    <article class="row d-flex align-items-center justify-content-center">
+                        <div class="flipCard col-4 mb-3 me-3">
+                            <div class="front">
+                                <img src="./img/marca1.png" alt="">
+                            </div>
+                            <div class="back">
+                                <p>BRICPET</p>
+                            </div>
+                        </div>
+                        <div class="flipCard col-2 mb-3 me-3">
+                            <div class="front">
+                                <img src="./img/marca2.png" alt="">
+                            </div>
+                            <div class="back">
+                                <p>VIMOFARM</p>
+                            </div>
+                        </div>
+                        <div class="flipCard col-2 mb-3 me-3">
+                            <div class="front">
+                                <img src="./img/marca3.png" alt="">
+                            </div>
+                            <div class="back">
+                                <p>TOTALAGRO TRADE</p>
+                            </div>
+                        </div>
+                        <div class="flipCard col-2 mb-3 me-3">
+                            <div class="front">
+                                <img src="./img/marca4.png" alt="">
+                            </div>
+                            <div class="back">
+                                <p>Farmaceutica Mundial</p>
+                            </div>
+                        </div>
+                        <div class="flipCard col-2 mb-3 me-3">
+                            <div class="front">
+                                <img src="./img/marca5.jpg" alt="">
+                            </div>
+                            <div class="back">
+                                <p>ARSUS</p>
+                            </div>
+                        </div>
+                        <div class="flipCard col-2 mb-3 me-3">
+                            <div class="front">
+                                <img src="./img/marca6.png" alt="">
+                            </div>
+                            <div class="back">
+                                <p>AGRITECH</p>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+            </div>
+        </section>
+        <section class="my-3 d-flex justify-content-center flex-column align-items-sm-start align-items-center">
+            <span class="ms-sm-3 ms-0 fs-4 fw-bold mb-3">Bùsquedas Recientes</span>
+            <div id="carousel3" class="carousel slide carousel-dark" data-bs-ride="true">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
+                            <img src="./img/info4.jpg" class="me-4 d-xl-inline d-none" alt="img1">
+                            <img src="./img/info3.jpg" class="me-4 d-lg-inline d-none" alt="img2">
+                            <img src="./img/info2.jpg" class="me-4 d-sm-inline d-none" alt="img3">
+                            <img src="./img/info1.jpg" class="" alt="img4">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="./img/product5.jpg" class="me-4 d-xl-inline d-none" alt="img2">
+                        <img src="./img/product6.jpg" class="me-4 d-lg-inline d-none" alt="img1">
+                        <img src="./img/product7.jpg" class="me-4 d-sm-inline d-none" alt="img4">
+                        <img src="./img/product8.jpg" class="" alt="img3">
+                    </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                    <span class="container-prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel3  " data-bs-slide="next">
+                    <span class="container-next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+            </section>
+    </main>
+    <footer class="d-flex justify-content-end align-items-center mt-3">
+        <a href="./html/blog.html">Nuestro Blog</a>
+        <a href="./html/search.html">Términos y Condiciones</a>
+        <a href="./html/detalle.html">Quiénes Somos?</a>
+        <a href="./html/categorias.html">Contácto</a>
+    </footer>
+</body>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</html>

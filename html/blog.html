@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>MegaAgropecuaria</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid d-flex justify-content-sm-center">
+              <a class="navbar-brand" href="#">
+                  <img src="../img/logo.jpg" alt="logo">
+                  <b id="title">Megagropecuaria</b>
+              </a>
+              <form action="" id="searchform">
+                  <input id="s" class="form-control me-2" type="search" placeholder="Buscar:" aria-label="Search">
+              </form>
+              <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse flex-column align-items-center justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 d-flex align-items-center justify-content-lg-start mt-3 mt-sm-0 justify-content-center">
+                    <div class="d-flex justify-content-center">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle me-3" href="#" id="categorias" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Categorias
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="categorias">
+                                <li><a class="dropdown-item" href="#">Medicamentos</a></li>
+                                <li><a class="dropdown-item" href="#">Pecuaria</a></li>
+                                <li><a class="dropdown-item" href="#">Agricola</a></li>
+                                <li><a class="dropdown-item" href="#">Servicio</a></li>
+                                <li><a class="dropdown-item" href="#">Agrotiendas</a></li>
+                                <li><a class="dropdown-item" href="#">Vademécum</a></li>
+                                <li><a class="dropdown-item" href="#">Mascotas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item me-sm-3 me-0">
+                            <a id="btnSesion" class="btn btn-outline-light" href="#">Iniciar Sesion</a>
+                        </li>
+                    </div>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main id="blog-content">
+      <section class="mensaje-header mb-4 row">
+        <nav class="px-3 col-12" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb m-0">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Blog</li>
+            </ol>
+        </nav>
+        <div class=" offset-sm-4 offset-3 col-sm-4 col-5">
+            <span>Blog</span>
+        </div>
+        <div class="dropdown col-4 d-flex align-items-center justify-content-center">
+            <i class="fa-solid fa-dollar-sign dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"></i>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Bs.S</a></li>
+              <li><a class="dropdown-item" href="#">U$S</a></li>
+            </ul>
+        </div>
+      </section>
+      <section class="my-5">
+          <section>
+              <span class="fs-4 fw-bold">Noticias Recientes</span>
+              <div id="carouselblog1" class="carousel slide" data-bs-ride="false">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselblog1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselblog1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselblog1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselblog1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../img/info1.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Vitaminas Disponibles</h5>
+                        <a href="#" class="btn btn-primary">Ver Noticia</a>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/info2.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Nuevos Productos</h5>
+                        <a href="#" class="btn btn-primary">Ver Noticia</a>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/info3.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Ubìcanos</h5>
+                        <a href="#" class="btn btn-primary">Ver Noticia</a>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/info4.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Conoce a nuestros Aliados</h5>
+                        <a href="#" class="btn btn-primary">Ver Noticia</a>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselblog1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselblog1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+          </section>
+          <div class="d-flex justify-content-center mt-5">
+              <span class="fs-3 fw-bold mb-5">Otras Noticias</span>
+          </div>
+          <section>
+            <section class="section-doble">
+                <article>
+                    <div class="mb-sm-0 mb-3">
+                        <a href="#">
+                            <img src="../img/info1.jpg" alt="#">
+                            <span>La mejor Herramienta para ti</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="../img/info2.jpg" alt="#">
+                            <span>Vive la mejor experiencia</span>
+                        </a>
+                    </div>
+                </article>
+            </section>
+            <section class="section-large">
+                <article>
+                    <div>
+                        <img src="../img/info3.jpg" alt="#">
+                    </div>
+                    <div class="d-flex flex-column">
+                        <span class="fw-bold fs-4">Titulo</span>
+                        <h6>16/6/2022</h5>
+                        <p>Breve descripcion del post Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo consequuntur voluptates, cum quo omnis repellendus dolorum cumque ea accusamus voluptatum sed.</p>
+                        <a href="#">Saber Màs</a>
+                    </div>
+                </article>
+            </section>
+            <section class="section-doble">
+              <article>
+                  <div class="mb-sm-0 mb-3">
+                      <a href="#">
+                          <img src="../img/info1.jpg" alt="#">
+                          <span>La mejor Herramienta para ti</span>
+                      </a>
+                  </div>
+                  <div>
+                      <a href="#">
+                          <img src="../img/info2.jpg" alt="#">
+                          <span>Vive la mejor experiencia</span>
+                      </a>
+                  </div>
+              </article>
+          </section>
+          <section class="section-large">
+              <article>
+                  <div>
+                      <img src="../img/info3.jpg" alt="#">
+                  </div>
+                  <div class="d-flex flex-column">
+                      <span class="fw-bold fs-4">Titulo</span>
+                      <h6>16/6/2022</h5>
+                      <p>Breve descripcion del post Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo consequuntur voluptates, cum quo omnis repellendus dolorum cumque ea accusamus voluptatum sed.</p>
+                      <a href="#">Saber Màs</a>
+                  </div>
+              </article>
+          </section>
+          <section class="section-doble">
+            <article>
+                <div class="mb-sm-0 mb-3">
+                    <a href="#">
+                        <img src="../img/info1.jpg" alt="#">
+                        <span>La mejor Herramienta para ti</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="../img/info2.jpg" alt="#">
+                        <span>Vive la mejor experiencia</span>
+                    </a>
+                </div>
+            </article>
+        </section>
+        <section class="section-large">
+            <article>
+                <div>
+                    <img src="../img/info3.jpg" alt="#">
+                </div>
+                <div class="d-flex flex-column">
+                    <span class="fw-bold fs-4">Titulo</span>
+                    <h6>16/6/2022</h5>
+                    <p>Breve descripcion del post Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo consequuntur voluptates, cum quo omnis repellendus dolorum cumque ea accusamus voluptatum sed.</p>
+                    <a href="#">Saber Màs</a>
+                </div>
+            </article>
+        </section>
+          </section>
+      </section>
+      <nav class="navigation pagination" aria-label="Entradas">
+		<div class="nav-links">
+            <span aria-current="page" class="page-numbers current">1</span>
+            <a class="page-numbers" href="http://localhost:8080/wordpressMegagro/category/noticia/page/2/">2</a>
+            <a class="next page-numbers" href="http://localhost:8080/wordpressMegagro/category/noticia/page/2/">Siguientes</a>
+        </div>
+	  </nav>
+    </main>
+    <footer class="d-flex justify-content-end align-items-center mt-3">
+        <a href="./blog.html">Nuestro Blog</a>
+        <a href="#">Términos y Condiciones</a>
+        <a href="#">Quiénes Somos?</a>
+        <a href="#">Contácto</a>
+    </footer>
+</body>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/b303dbfa11.js" crossorigin="anonymous"></script>
+</html>
